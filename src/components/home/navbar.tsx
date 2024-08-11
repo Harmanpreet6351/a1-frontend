@@ -19,7 +19,7 @@ export default function Navbar() {
         </div>
         <MenuButton />
       </div>
-      <div id="mobile-menu" className="bg-black text-white flex flex-col items-center *:p-4 transition-all max-h-0">
+      <div id="mobile-menu" className="bg-black text-white flex flex-col items-center *:p-4 transition-all duration-[1s] max-h-0">
         <Link href="#">Home</Link>
         <Link href="#">Services</Link>
         <Link href="#">Testimonials</Link>
