@@ -1,2 +1,1 @@
-1. Fix navbar links
-2. import individual pics for collage in testimonial section for animation
+1. import individual pics for collage in testimonial section for animation
