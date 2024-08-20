@@ -1,5 +1,6 @@
 import AchievementSection from "@/components/home/achievement-section";
 import ContactUsSection from "@/components/home/contact-us-section";
+import FooterSection from "@/components/home/footer-section";
 import HeroSection from "@/components/home/hero-section";
 import Navbar from "@/components/home/navbar";
 import OurServicesSection from "@/components/home/our-services-section";
@@ -19,6 +20,7 @@ export default function Home() {
       <TestimonialsSection />
       <ContactUsSection />
       <PartnersSection />
+      <FooterSection />
     </>
   )
 }
