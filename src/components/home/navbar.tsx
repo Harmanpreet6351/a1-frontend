@@ -8,8 +8,8 @@ export default function Navbar() {
   return (
     <>
       <div className="bg-black py-1 px-5 flex items-center justify-between">
-        <div>
-          <Image src={Logo} height={93} width={87} alt="A1 Installations" />
+        <div className="py-2">
+          <Image src={Logo} height={80} width={75} alt="A1 Installations" />
         </div>
         <div className="text-white hidden sm:flex gap-4">
           <Link href="#" className="hover:bg-white hover:text-black p-2 rounded-lg transition-all duration-300">Home</Link>

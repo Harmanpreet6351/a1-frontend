@@ -8,10 +8,10 @@ import Phone from "@/assets/phone.svg"
 export default function FooterSection() {
 
   return (
-    <div className="bg-black text-white flex flex-col md:flex-row gap-16 px-8 md:p-0 justify-evenly py-16">
+    <div className="bg-black text-white flex flex-col md:flex-row gap-16 px-8 md:px-0 justify-evenly py-16">
       <div>
         <Image src={Logo} alt="A1 Installations" />
-        <p>You home, our experties perfect every time</p>
+        <p className="font-semibold">Your home, our experties<br />perfect every time</p>
       </div>
       <div>
         <h4 className="underline">Helpful links</h4>

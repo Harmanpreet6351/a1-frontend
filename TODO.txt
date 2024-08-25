@@ -1,1 +1,4 @@
-1. import individual pics for collage in testimonial section for animation
+1. Text for testimonial section
+2. Add services section
+3. photographs for testimonial section with reviews
+4. photographs for services section
