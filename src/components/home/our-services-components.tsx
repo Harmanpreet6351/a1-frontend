@@ -35,7 +35,9 @@ const commonRightAnimations: HTMLMotionProps<"div"> = {
 export const WashingMachingComponent = () => {
   return (
     <>
-      <motion.div key="washing-machine-left" className="w-full lg:w-1/2" {...commonLeftAnimations}>lorem ipsum lorem ipsum lorem ipsum</motion.div>
+      <motion.div key="washing-machine-left" className="w-full lg:w-1/2" {...commonLeftAnimations}>
+        <h1>Appliance Repair</h1>
+      </motion.div>
       <motion.div key="washing-machine-right" className="w-full lg:w-1/2" {...commonRightAnimations}>
         <Image src={Viking} alt="viking" style={{boxShadow: "2px 2px 8px gray"}} />
       </motion.div>
