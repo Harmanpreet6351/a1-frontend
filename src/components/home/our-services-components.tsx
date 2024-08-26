@@ -32,11 +32,21 @@ const commonRightAnimations: HTMLMotionProps<"div"> = {
   }
 }
 
-export const WashingMachingComponent = () => {
+export const AppliancesComponent = () => {
   return (
     <>
       <motion.div key="washing-machine-left" className="w-full lg:w-1/2" {...commonLeftAnimations}>
-        <h1>Appliance Repair</h1>
+        <h1 className="font-bold text-[24px] mb-4">Appliance Installations</h1>
+        <ul className="list-disc ml-5">
+          <li>Dishwasher</li>
+          <li>Wall Ovens</li>
+          <li>Rangehood / Chimney Hood Fans with Ventilation</li>
+          <li>OTR / Microwave</li>
+          <li>Built-in Fridges and Freezers<br />(Specializes in Luxury Appliance)</li>
+          <li>Door Panels</li>
+          <li>Washer and Dryers with Side Venting</li>
+          <li>Cooktops</li>
+        </ul>
       </motion.div>
       <motion.div key="washing-machine-right" className="w-full lg:w-1/2" {...commonRightAnimations}>
         <Image src={Viking} alt="viking" style={{boxShadow: "2px 2px 8px gray"}} />
@@ -59,7 +69,15 @@ export const KitchenComponent = () => {
 export const PlumbingComponent = () => {
   return (
     <>
-      <motion.div key="plumbing-left" className="w-full lg:w-1/2" {...commonLeftAnimations}>lorem ipsum lorem ipsum lorem ipsum</motion.div>
+      <motion.div key="plumbing-left" className="w-full lg:w-1/2" {...commonLeftAnimations}>
+      <h1 className="font-bold text-[24px] mb-4">Plumbing</h1>
+      <ul className="list-disc ml-5">
+        <li>Kitchen and Bathroom Sinks and Faucets</li>
+        <li>Toilets</li>
+        <li>Garburator</li>
+        <li>Vanities</li>
+      </ul>
+      </motion.div>
       <motion.div key="plumbing-right" className="w-full lg:w-1/2" {...commonRightAnimations}>
         <Image className="shadow-2xl" src={Viking} alt="viking" />
       </motion.div>
@@ -70,7 +88,15 @@ export const PlumbingComponent = () => {
 export const ElectricalComponent = () => {
   return (
     <>
-      <motion.div key="electrical-left" className="w-full lg:w-1/2" {...commonLeftAnimations}>lorem ipsum lorem ipsum lorem ipsum</motion.div>
+      <motion.div key="electrical-left" className="w-full lg:w-1/2" {...commonLeftAnimations}>
+        <h1 className="font-bold text-[24px] mb-4">Electrical</h1>
+        <ul className="list-disc ml-5">
+          <li>Light Fixtures</li>
+          <li>Ceiling Fans</li>
+          <li>Air Conditioners</li>
+          <li>TV Wall Mount</li>
+        </ul>
+      </motion.div>
       <motion.div key="electrical-right" className="w-full lg:w-1/2" {...commonRightAnimations}>
         <Image className="shadow-2xl" src={Viking} alt="viking" />
       </motion.div>
@@ -81,7 +107,18 @@ export const ElectricalComponent = () => {
 export const FurnitureComponent = () => {
   return (
     <>
-      <motion.div key="furniture-left" className="w-full lg:w-1/2" {...commonLeftAnimations}>lorem ipsum lorem ipsum lorem ipsum</motion.div>
+      <motion.div key="furniture-left" className="w-full lg:w-1/2" {...commonLeftAnimations}>
+        <h1 className="font-bold text-[24px] mb-4">Furniture</h1>
+        <ul className="list-disc ml-5">
+          <li>Bed Assembly</li>
+          <li>Bookshelf Assembly</li>
+          <li>Patio Furniture Assembly</li>
+          <li>Wardrobe Assembly</li>
+          <li>Walk-in Closet Installation</li>
+          <li>Cabinet Makeover</li>
+          <li>All Kinds of Appliance Door Panels</li>
+        </ul>
+      </motion.div>
       <motion.div key="furniture-right" className="w-full lg:w-1/2" {...commonRightAnimations}>
         <Image className="shadow-2xl" src={Viking} alt="viking" />
       </motion.div>
@@ -89,10 +126,13 @@ export const FurnitureComponent = () => {
   )
 }
 
-export const PaintingComponent = () => {
+export const CustomCabinetsComponent = () => {
   return (
     <>
-      <motion.div key="painting-left" className="w-full lg:w-1/2" {...commonLeftAnimations}>lorem ipsum lorem ipsum lorem ipsum</motion.div>
+      <motion.div key="painting-left" className="w-full lg:w-1/2" {...commonLeftAnimations}>
+        <h1 className="font-bold text-[24px] mb-4">Custom Cabinets</h1>
+        Custom Cabinets for Kitchen, Bathroom, Den Area<br />(Build and Install)
+      </motion.div>
       <motion.div key="painting-right" className="w-full lg:w-1/2" {...commonRightAnimations}>
         <Image className="shadow-2xl" src={Viking} alt="viking" />
       </motion.div>
