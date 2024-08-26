@@ -30,7 +30,7 @@ export default function OurServicesSection() {
   const buttonClassNames = useMemo(() => "shadow-md py-8 h-[90px] w-[90px] lg:h-[120px] lg:w-[120px] flex flex-col items-center justify-center", [])
 
   return (
-    <div className="py-16 lg:px-32 md:px-16 px-4">
+    <div id="services" className="py-16 lg:px-32 md:px-16 px-4">
       <h1 className="text-center text-[32px] lg:text-[42px] font-bold">Our Services</h1>
       <div className="grid grid-cols-3 gap-5 md:grid-cols-6 pt-16 pb-20 place-items-center place-content-center">
         <button className={buttonClassNames} onClick={() => setItemName("painting")}>

@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function ContactUsSection() {
   
   return (
-    <div className="flex flex-col lg:flex-row gap-16 lg:gap-0 justify-evenly py-16 text-white bg-gradient-to-b from-[#10204B] to-[#103088]">
+    <div id="contact" className="flex flex-col lg:flex-row gap-16 lg:gap-0 justify-evenly py-16 text-white bg-gradient-to-b from-[#10204B] to-[#103088]">
       <div className="flex flex-col items-center gap-2">
         <Image src={locationVector} alt="Location" />
         <p className="text-[24px]">Chilliwack, BC V2P 3N1</p>

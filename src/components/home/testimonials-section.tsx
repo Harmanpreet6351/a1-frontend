@@ -5,7 +5,7 @@ import craftCollage from "@/assets/crat-collage.png"
 
 export default function TestimonialsSection() {
   return (
-    <div className="bg-black pt-28 text-white">
+    <div id="testimonials" className="bg-black pt-28 text-white">
       <h1 className="text-center text-[42px] font-bold">Testimonials</h1>
       <div className="flex flex-col px-8 xl:px-52 py-28 gap-24 items-center">
         <Image src={craftCollage} alt="collage" />
