@@ -39,7 +39,7 @@ export default function PartnersSection() {
 
   return (
     <div className="py-32">
-      <h1 className="text-center text-[42px] font-bold pb-20">We Deal With...</h1>
+      <h1 className="text-center text-[24px] lg:text-[42px] font-bold pb-20">We Deal With...</h1>
       <div className="w-[70vw] mx-auto">
       <Carousel opts={{loop: true, align: "center"}} plugins={[ (Autoplay({delay: 1500}) as any), ]}>
         <CarouselContent className="items-center -ml-12">
