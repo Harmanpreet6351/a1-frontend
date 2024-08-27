@@ -95,6 +95,7 @@ export const ElectricalComponent = () => {
           <li>Ceiling Fans</li>
           <li>Air Conditioners</li>
           <li>TV Wall Mount</li>
+          <li>On Demand festive lighting and decoration</li>
         </ul>
       </motion.div>
       <motion.div key="electrical-right" className="w-full lg:w-1/2" {...commonRightAnimations}>
@@ -131,7 +132,9 @@ export const CustomCabinetsComponent = () => {
     <>
       <motion.div key="painting-left" className="w-full lg:w-1/2" {...commonLeftAnimations}>
         <h1 className="font-bold text-[24px] mb-4">Custom Cabinets</h1>
-        Custom Cabinets for Kitchen, Bathroom, Den Area<br />(Build and Install)
+        <ul className="list-disc ml-5">
+         <li>We offer expert design, build, and installation services for custom cabinets tailored specifically to enhance the functionality and aesthetics of your kitchen, bathroom, and den area. Our team works closely with you to create personalized cabinetry solutions that meet your unique needs, using high-quality materials and precise craftsmanship to ensure a perfect fit in every room of your home.</li>
+        </ul>
       </motion.div>
       <motion.div key="painting-right" className="w-full lg:w-1/2" {...commonRightAnimations}>
         <Image className="shadow-2xl" src={Viking} alt="viking" />
