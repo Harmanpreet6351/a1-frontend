@@ -1,4 +1,4 @@
-import heroBackground from "@/assets/hero-backgroun.png"
+import heroBackground from "@/assets/kitchebn.jpg"
 
 
 export default function HeroSection() {

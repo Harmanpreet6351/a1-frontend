@@ -58,7 +58,7 @@ export default function OurServicesSection() {
           <p className="text-xs font-semibold">Minor Repairs</p>
         </button>
       </div>
-        <div className="flex flex-col-reverse gap-6 lg:gap-0 lg:flex-row justify-evenly items-center lg:items-start">
+        <div className="flex flex-col-reverse gap-6 lg:gap-16 lg:flex-row justify-evenly items-center lg:items-start">
           <AnimatePresence mode="wait" initial={false}>
           {
             itemName === "repair" ? <KitchenComponent />
