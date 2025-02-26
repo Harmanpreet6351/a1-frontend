@@ -84,7 +84,13 @@ export const MinorRepairsComponent = () => {
         className="w-full lg:w-1/2"
         {...commonLeftAnimations}
       >
-        lorem ipsum lorem ipsum lorem ipsum
+        <h1 className="font-bold text-[24px] mb-4">Minor Repairs</h1>
+        <ul className="list-disc ml-5">
+          <li>Paintjob {'('}On Demand{')'}</li>
+          <li>Minor appliance repairs</li>
+          <li>Furniture repair</li>
+          <li>All kinds of cleaning services</li>
+        </ul>
       </motion.div>
       <motion.div
         key="kitchen-right"
