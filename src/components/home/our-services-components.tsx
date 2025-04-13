@@ -1,6 +1,6 @@
 import { HTMLMotionProps, motion } from "framer-motion";
 import Image from "next/image";
-import Viking from "@/assets/hero-backgroun.png";
+import Appliance from "@/assets/our-services/appliance.jpg";
 import MinorRepair from "@/assets/our-services/minor-repairs.jpg";
 import CustomCabinets from "@/assets/our-services/custom-cabinets.jpg"
 import Electircal from "@/assets/our-services/electrical.jpg"
@@ -67,7 +67,7 @@ export const AppliancesComponent = () => {
         {...commonRightAnimations}
       >
         <Image
-          src={Viking}
+          src={Appliance}
           alt="viking"
           style={{ boxShadow: "2px 2px 8px gray" }}
         />

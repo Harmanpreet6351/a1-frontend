@@ -1,4 +1,4 @@
-// File: D:\PYTHON\CreaoApp\A1\a1-frontend\src\app\page.tsx
+// File: /home/harmanpreet/Work/Personal/hammy-paaji/a1-frontend/src/app/page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
